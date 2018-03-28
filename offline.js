@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1521777104,
+	"version": 1522202652,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -19,6 +19,10 @@
 		"media/what is love 8 bit.ogg",
 		"media/grito.m4a",
 		"media/grito.ogg",
+		"media/sfx_jump_50.m4a",
+		"media/sfx_jump_50.ogg",
+		"media/coin 8bit gamer effects  sound effects (hd).m4a",
+		"media/coin 8bit gamer effects  sound effects (hd).ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
