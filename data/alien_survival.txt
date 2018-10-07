@@ -1,0 +1,11 @@
+Alien Survival é um jogo de tabuleiro desenvolvido por alunos do curso de jogos digitais da FIAP.
+Após o término do desenvolvimento do trabalho acadêmico, assumi a finalização do projeto e pretendo lançá-lo ao mercado em 2017. Nesse projeto fui responsável pelo desenvolvimento das mecânicas do jogo, regras, manual, modelagem e impressão 3D das peças do tabuleiro. Além disso, desenvolvi uma versão digital que foi utilizada durante os primeitos testes antes da confecção do primeiro protótipo
+jogável. Esse programa foi desenvolvido em Python e pode ser conferido em minha página no GitHub
+___________________________________________________________________________________
+Sobre o jogo:
+
+Alien Survival é um jogo cooperativo onde os jogadores são tripulantes de uma nave que está em algum lugar do universo e são surpreendidos e atracados por uma nave alienígena. Os jogadores devem pensar juntos em quais ações tomar para destruir todos os alienígenas invasores e repararem a nave conforme as emergências forem surgindo para que sua integridade não acabe e ela seja destruída.
+
+Os tripulantes devem ir até pontos específicos da nave para buscarem por itens que os ajudarão na resolução das emergências que virão. Se um ataque inimigo fizer um buraco no casco, precisamos de uma placa de metal e uma solda para consertá-lo o mais rápido possível, antes que isso destrua nossa nave por completo!
+
+É necessário dar e receber conselhos, planejar os movimentos com cautela e o principal: DESTRUIR OS ALIENÍGENAS INVASORES!

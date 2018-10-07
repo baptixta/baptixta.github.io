@@ -1,0 +1,55 @@
+<img src="images/portfolio/drivr/logo.png">
+<video width="100%" height="315" controls><source src="videos/drivr.mp4" type="video/mp4"></video>
+
+Muitos de vocês já viram diversos vídeos exibindo os avanços tecnológicos que estão acontecendo ao redor do mundo, inclusive no vídeo acima, foi possível ver que os carros já estão trilhando uma estrada longa em direção às inovações tecnológicas.
+
+Estamos na era digital, nossos valores mudaram, a maneira como agimos e pensamos mudou drasticamente, mas muitas coisas ainda são feitas de maneira analógica e não acompanharam essas mudanças.
+Nós acreditamos que a maneira com que vendemos e consumimos informações sobre o mercado automobilístico precisa evoluir.
+Portanto, construímos uma ferramenta realista que permite montar, personalizar e pilotar um veículo, o <b>DrivR</b>.
+
+<img src="images/portfolio/drivr/oculus.gif">
+Realidade Virtual já existe há cerca de meio século mas só vem sendo difundida na última década, principalmente no ano passado e no ano atual, com o lançamento de novos produtos cada vez mais acessíveis e interessantes, como o novo Oculus Rift.
+
+<img src="images/portfolio/drivr/carro.gif">
+<b>DrivR</b> consiste em uma experiência completa de customização do veículo tanto na parte externa, trocando pintura ou rodas do veículo e posteriormente na parte interna, onde o usuário interage com suas mãos virtuais.
+A experiência foi feita para ser utilizada em qualquer concessionária ou em eventos do ramo, tendo como finalidade a venda do veículo ou como campanha de marketing para atrair a atenção do público.
+
+<img src="images/portfolio/drivr/controle1.gif">
+Utilizando um controle que identifica perfeitamente o movimento das mãos e dos dedos é possível trazer um realismo ainda maior na interação do usuário com o veículo no ambiente virtual.
+
+<img src="images/portfolio/drivr/controle2.gif">
+Além disso, um dos problemas que temos atualmente, é a comunicação com o usuário tanto em termos de mostrar os diferenciais de cada veículo em específico como explicar o funcionamento das novas tecnologias, como o próprio funcionamento dos veículos híbridos, por exemplo.
+
+Pensando nisso, encontramos maneiras de mostrar através da realidade virtual o funcionamento de qualquer parte do veículo, como é mostrado nas imagens abaixo.
+
+<img src="images/portfolio/drivr/motor1.gif">
+<img src="images/portfolio/drivr/motor2.gif">
+<img src="images/portfolio/drivr/motor3.gif">
+
+<hr>
+<img src="images/portfolio/drivr/pintura.gif">
+Durante a primeira etapa, o usuário inicia a experiência selecionando um dos modelos de veículos disponíveis, através do modo “Monte seu Veículo”, é possível customizar diversas partes do exterior do veículo, exercendo atividade como trocar as rodas e a pintura e interagir com diversas outras partes, como abrir e fechar portas e olhar em pontos específicos no carro, como por exemplo o motor ou o porta malas.
+
+Na segunda etapa, o usuário abre a porta do motorista e entra no veículo, onde ele pode interagir com diversas features como computador de bordo, painéis, faróis, alterar cor ou tecido do banco, ligar o som, ar condicionado e entre outras.
+
+Durante essa etapa, utilizamos alguns recursos extras para aumentar a imersão, como um ventilador para simular o ar condicionado e também um dispositivo que é capaz de emitir odores, para simular o cheiro de carro novo ou do banco de couro, por exemplo.
+
+<img src="images/portfolio/drivr/visao_360.gif">
+O veículo customizado pelo usuário pode ser acessado posteriormente através de um aplicativo mobile ou em uma aplicação web, com a visualização em 360º do modelo 3D gerado, sendo possível compartilhá-lo nas redes sociais.
+
+Toda a interação que usuário realizou é salva em um formato de linha do tempo, onde é possível visualizar todas as modificações feitas ao longo da experiência inclusive as que foram realizadas e depois removidas, para que o usuário consiga ter um acesso total às informações produzidas no <b>DrivR</b>.
+
+<img src="images/portfolio/drivr/pilotar.gif">
+Após finalização dessa etapa, é possível pilotar esse veículo em uma das pistas disponíveis ou até mesmo customizar a sua pista, onde o usuário irá ter uma experiência 4D, que envolve: a realidade virtual e um cockpit, que se movimentará baseado na movimentação do carro, tornando a experiência mais imersiva e agregando valor ao produto.
+
+E assim finaliza a etapa do usuário. Mas uma das coisas mais interessantes e fascinantes é que essa ferramenta não possui limites. Durante nosso desenvolvimento pensamos em algo que pudesse melhorar inclusive a experiência das pessoas de um forma geral, incluindo aqueles que não utilizaram o <b>DrivR</b>.
+
+<img src="images/portfolio/drivr/ibm_watson.png">
+Com isso em mente, encontramos uma solução que, através da Inteligência Artificial do IBM Watson em conjunto com a Visão Computacional, conseguimos medir a analisar toda a experiência do usuário, entendendo todas as preferências dele, saber quanto tempo ele passou alterando as rodas, onde ele passou mais tempo olhando, no que ele mexeu mais.
+
+Analisar todas as emoções em etapas específicas da experiência, e com essa informação em mãos, enviamos para o IBM Watson, ele irá analisar e nos devolver uma análise crítica daquilo, que juntamente com o Machine Learning (aprendizado de máquina), teremos resultados cada vez melhores e mais precisos à medida que a ferramenta vai sendo usada por mais pessoas.
+
+Através da análise dos resultados, conseguimos realizar e direcionar melhor as campanhas de marketing, por exemplo, atuando em cima de pontos específicos baseado na análise de perfil por idade. Com isso, é possível saber se o usuário entre 25 e 30 anos passou mais tempo alterando as rodas ou bancos ou se ele prefere espaço em vez de aparência, por exemplo.
+
+<img src="images/portfolio/drivr/logo.png">
+Esse é o <b>DrivR</b>, uma ferramenta de altíssimo nível que tem grande potencial de mercado e diversas aplicabilidades, a nossa ideia é ter um produto bem consistente e modular, facilmente adaptável a qualquer demanda de mercado e de maneira escalável.

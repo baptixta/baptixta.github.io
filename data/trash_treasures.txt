@@ -1,0 +1,9 @@
+Trash Treasures é um jogo casual mobile desenvolvido por mim e pelo Mestre Thiago Coser, com trilha desenvolvida por Thiago Liguori. Nesse projeto fui responsável por 100% da programação e construção do jogo no motor de jogos Unity, utilizando a linguagem de programação C#.
+
+No jogo você cavar o mais rápido que conseguir para encontrar todos os tesouros enterrados e ajudar o coveiro John a ser tornar o funcionário do mês. O único detalhe que John não sabe é que ele é o único funcionário do cemitério.
+
+O objetivo do jogo é transmitir a mesma sensação de estourar plástico bolha, onde o jogador pode jogar enquanto faz qualquer outra tarefa, pois o jogo não exige uma concentração absoluta, o foco é completamente a descontração e o casual, além de proporcionar boas risadas com os tesouros encontrados!
+
+Como o nome do jogo sugere, em Trash Treasures, o jogador encontra supostos tesouros como um boneco de pelúcia todo 'estrupiado' ou até mesmo um cofre cheio de riquezas (trancado!, droga...).
+
+O jogo foi lançado em Novembro de 2017 na Play Store em uma parceria entre a CaféGameStudio e a SalvatoreGames.

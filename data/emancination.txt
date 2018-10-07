@@ -1,0 +1,11 @@
+Emancination é um jogo sensacional no qual eu tive a felicidade de desenvolver com mais 5 desenvolvedores geniais. O jogo foi desenvolvido em UM FINAL DE SEMANA na Game Jam proporcionada pelo 'Goethe-Institut Brasilien'.
+
+Para essa competição apenas 40 desenvolvedores foram selecionados em um total de cerca de 400 inscrições, sendo que o grupo vencedor receberia uma viagem com tudo pago para a Alemanha a fim de expor o jogo desenvolvido.
+
+O tema da competição foi 'Emancipação' e nós desenvolvemos um jogo que permite que as pessoas votem em conjunto e decidam o futuro de uma nação fictícia, onde cada um deve fazer isso em seu próprio smartphone e no final exibimos o resultado da votação e os impactos dela na cidade, ensinando e mostrando na prática a democracia e mostrando os resultados individuais dos votos de cada pessoa, fazendo com que as pessoas percebem os impactos de suas decisões (mesmo que elas não sejam aprovadas).
+
+No final, exibimos um gráfico que mostra como a cidade estaria se os votos da pessoa tivessem sido aceitos e como a cidade está atualmente com os resultados reais das votações realizadas.
+
+Emancination é um projeto sensacional que pode ser usado para diversas frentes, seja de entretenimento ou educação, recebendo muitos elogios e interesses para desenvolver ferramentas que auxiliassem de fato a sociedade, principalmente no cenário da educação.
+
+Nesse projeto fui responsável por 100% da programação e desenvolvi utilizando Unity e C# e construí um servidor em PHP completamente do zero para realizar a comunicação em tempo real de todos os celulares conectados na internet, para contabilizar o voto de cada pessoa. Foi um dos projetos mais desafiadores pessoalmente e me senti muito realizado quando consegui finalizar o que havíamos pensado.

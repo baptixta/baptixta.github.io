@@ -1,0 +1,9 @@
+O projeto Sandbox consiste em realizar a leitura digital em 3D (utilizando o Kinect do XBox One) de uma caixa de areia de 1m x 1m e enviar essas informações ao computador que, após serem processadas, irão compor o cenário de um jogo de corrida.
+
+A ideia é que as pessoas moldem seus próprios cenários no mundo real e isso seja transmitido para o computador para que elas possam navegar nele.
+
+Após o envio das informações, a pessoa coloca um equipamento de Realidade Virtual (no caso, Oculus Rift) e com um volante e pedais ela pilota um carro nesse terreno que construiu com as próprias mãos.
+
+O projeto foi apresentado em diversos eventos e exposições, ganhando grande destaque inclusive na mídia, onde foi gravado pelo Jornal da Cultura e Jornal da Globo.
+
+O projeto foi desenvolvido por mim e pelo Prof. Mestre Thiago Coser, sendo que toda a parte de leitura 3D e projeção na pista foi feita em 20 dias.

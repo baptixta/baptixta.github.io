@@ -1,0 +1,5 @@
+O MindRace é um projeto de iniciação científica desenvolvido pelos alunos da FIAP que consiste em um autorama controlado por ondas cerebrais.
+
+O projeto ganhou um grande destaque na mídia aparecendo em diversos canais de comunicação, como a Globo, durante a cobertura da RoadSec, maior feira hacker da América Latina, um dos locais onde apresentei esse projeto.
+
+O MindRace utiliza ondas cerebrais para que dois jogadores controlem seus respectivos carrinhos em um autorama simples. O projeto consiste em captar ondas eletromagnéticas de concentração de cada jogador e imprimir na velocidade de cada carrinho. O jogo apresenta um formato de três voltas onde o carrinho que chegar primeiro ao final da terceira volta. Geralmente costumamos realizar uma melhor de três para dar um tempo para que as pessoas experimentem o projeto.

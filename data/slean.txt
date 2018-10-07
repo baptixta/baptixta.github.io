@@ -1,0 +1,10 @@
+The Slean Invasion - Realoded é um jogo casual para a plataforma mobile desenvolvido pelo estúdio de jogos indie 'Split Studios'.
+Esse jogo é uma versão reloaded de um jogo já existente, porém, com todas as artes refeitas e alguns recursos novos e melhorados.
+Nesse projeto tive a felicidade de atuar como programador principal e fui responsável por toda a programação do jogo, desenvolvendo com o motor de jogos Unity, na linguagem de programação C#.
+
+____________________________________________________________________________________
+Sinopse:
+
+"With the help of the rounded Woffles, fight against the huge manance that the mankind has ever faced. Protect the gardens of our beautiful world from the slimy aliens snails, the Sleans!
+
+Protect, fight back, destroy, collect, replant and prevail"

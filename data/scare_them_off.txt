@@ -1,0 +1,1 @@
+Scare them Off! é um jogo em terceira pessoa onde o jogador é um fantasma que assombra um castelo cheio de turistas. O jogador deve interagir com o ambiente para matar os turistas de susto e coletar suas almas. Mas deve ter cuidado com o exorcista, pois se os turistas não morrerem no susto ele será chamado e irá exorcizar o cômodo.
