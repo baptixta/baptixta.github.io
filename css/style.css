@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
 
 a {
   color: #dedede;
-
 }
 
 /* SECTIONS */
@@ -174,6 +173,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
+  transition: all 1s ease;
 }
 
 .skills {
@@ -191,6 +191,71 @@ a {
   cursor: pointer;
   transform: scale(1.5);
   transition: all .3s ease;
+}
+
+/* PAGES - DEVELOPMENT */
+
+.development-page {
+  align-items: center;
+  background: #d63b1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  transition: all 1s ease;
+}
+
+/* PAGES - PORTFOLIO */
+
+.portfolio-page {
+  align-items: center;
+  background: #d63b1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  transition: all 1s ease;
+}
+
+/* PAGES - EDUCATION */
+
+.education-page {
+  align-items: center;
+  background: #d63b1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  transition: all 1s ease;
+}
+
+/* PAGES - QUALIFICAÇÕES */
+
+.qualification-page {
+  align-items: center;
+  background: #d63b1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  transition: all 1s ease;
+}
+
+/* PAGES - SKILLS */
+
+.skills-page {
+  align-items: center;
+  background: #d63b1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  transition: all 1s ease;
 }
 
 /* Social Media */
