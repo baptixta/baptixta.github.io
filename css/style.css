@@ -488,6 +488,12 @@ a {
     transform: scale(1);
   }
 
+  .fa-angle-up {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    transform: scale(1.6);
+  }
+
   .development-content {
     flex-direction: column;
   }
@@ -498,9 +504,6 @@ a {
   }
 
   .skills-box {
-    margin: 10px 0;
-    border: none;
-    border-radius: 2px;
-    border-top: 7px solid #dedede;
+    margin: 15px 0;
   }
 }
