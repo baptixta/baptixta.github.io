@@ -18,7 +18,7 @@ let habilidadesPage = document.querySelector('.skills-page');
 // Deixando as "pages" invisíveis
 developmentPage.style.opacity = "1";
 portfolioPage.style.opacity = "1";
-educacaoPage.style.opacity = "0";
+educacaoPage.style.opacity = "1";
 qualificacoesPage.style.opacity = "0";
 habilidadesPage.style.opacity = "0";
 
