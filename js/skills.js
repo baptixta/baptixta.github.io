@@ -5,22 +5,19 @@ let page = document.querySelector('#experience-skills');
 let development = document.querySelector('#development');
 let portfolio = document.querySelector('#portfolio');
 let educacao = document.querySelector('#educacao');
-let qualificacoes = document.querySelector('#qualificacoes');
 let habilidades = document.querySelector('#habilidades');
 
 // Identificando as "pages"
 let developmentPage = document.querySelector('.development-page');
 let portfolioPage = document.querySelector('.portfolio-page');
 let educacaoPage = document.querySelector('.education-page');
-let qualificacoesPage = document.querySelector('.qualification-page');
 let habilidadesPage = document.querySelector('.skills-page');
 
 // Deixando as "pages" invisíveis
 developmentPage.style.opacity = "1";
 portfolioPage.style.opacity = "1";
 educacaoPage.style.opacity = "1";
-qualificacoesPage.style.opacity = "0";
-habilidadesPage.style.opacity = "0";
+habilidadesPage.style.opacity = "1";
 
 
 // Faz a página Development aparecer
@@ -39,12 +36,6 @@ portfolio.addEventListener('click', () => {
 educacao.addEventListener('click', () => {
   page.style.opacity = "0";
   educacaoPage.style.display = "1";
-});
-
-// Faz a página Qualificações aparecer
-qualificacoes.addEventListener('click', () => {
-  page.style.opacity = "0";
-  qualificacoesPage.style.opacity = "1";
 });
 
 // Faz a página Skills aparecer

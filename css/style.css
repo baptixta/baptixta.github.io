@@ -268,17 +268,10 @@ a {
   transition: all 1s ease;
 }
 
-/* PAGES - QUALIFICAÇÕES */
-
-.qualification-page {
+.development-content {
   align-items: center;
-  background: #d63b1f;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all 1s ease;
+  padding: 10px 0px;
 }
 
 /* PAGES - SKILLS */
@@ -294,17 +287,55 @@ a {
   transition: all 1s ease;
 }
 
+.skills-title {
+  color: #dedede;
+  font: 45px 'Trebuchet MS';
+  font-weight: 700;
+  margin: 10px 0px 45px 0px;
+}
+
+.skills-subtitle {
+  color: #dedede;
+  font: 32px 'Trebuchet MS';
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-box {
+  border: 2px solid #dedede;
+  border-radius: 2px;
+  padding: 20px;
+  width: 180px;
+}
+
+.skills-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-li {
+  color: #dedede;
+  list-style: none;
+  font: 20px 'Trebuchet MS';
+  padding: 5px 0px;
+}
+
 /* Botão Voltar */
 .fa-angle-double-left {
   color: #dedede;
   margin-top: 55px;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .fa-angle-double-left:hover {
   cursor: pointer;
-  transform: scale(2);
-  transition: all .4s ease-in-out;
+  transform: scale(1.7);
+  transition: all .3s ease-in-out;
 }
 
 /* Social Media */
@@ -350,7 +381,7 @@ a {
 .language {
   top: 0;
   color: #dedede;
-  margin: 0px 20px;
+  margin: 8px 5px;
   position: fixed;
   right: 0;
   transform: scale(0.5);
@@ -361,6 +392,10 @@ a {
 .language:hover {
   transform: scale(0.6);
   transition: all .4s ease;
+}
+
+.flag {
+  border-radius: 3px;
 }
 
 /* Animation */
