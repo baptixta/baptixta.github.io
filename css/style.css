@@ -307,8 +307,9 @@ a {
 }
 
 .skills-box {
-  border: 2px solid #dedede;
+  border: 7px solid #dedede;
   border-radius: 2px;
+  margin: 0px 15px;
   padding: 20px;
   width: 180px;
 }
@@ -485,5 +486,21 @@ a {
   .arrowExperience {
     margin-top: 7em;
     transform: scale(1);
+  }
+
+  .development-content {
+    flex-direction: column;
+  }
+
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-box {
+    margin: 10px 0;
+    border: none;
+    border-radius: 2px;
+    border-top: 7px solid #dedede;
   }
 }
