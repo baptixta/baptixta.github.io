@@ -16,39 +16,39 @@ let qualificacoesPage = document.querySelector('.qualification-page');
 let habilidadesPage = document.querySelector('.skills-page');
 
 // Deixando as "pages" invisíveis
-developmentPage.style.display = "none";
-portfolioPage.style.display = "none";
-educacaoPage.style.display = "none";
-qualificacoesPage.style.display = "none";
-habilidadesPage.style.display = "none";
+developmentPage.style.opacity = "1";
+portfolioPage.style.opacity = "1";
+educacaoPage.style.opacity = "0";
+qualificacoesPage.style.opacity = "0";
+habilidadesPage.style.opacity = "0";
 
 
 // Faz a página Development aparecer
 development.addEventListener('click', () => {
-  page.style.display = "none";
-  developmentPage.style.display = "block";
+  page.style.opacity = "0";
+  developmentPage.style.opacity= "1";
 });
 
 // Faz a página Portfolio aparecer
 portfolio.addEventListener('click', () => {
-  page.style.display = "none";
-  portfolioPage.style.display = "block";
+  page.style.opacity = "0";
+  portfolioPage.style.opacity = "1";
 });
 
 // Faz a página Educação aparecer
 educacao.addEventListener('click', () => {
-  page.style.display = "none";
-  educacaoPage.style.display = "block";
+  page.style.opacity = "0";
+  educacaoPage.style.display = "1";
 });
 
 // Faz a página Qualificações aparecer
 qualificacoes.addEventListener('click', () => {
-  page.style.display = "none";
-  qualificacoesPage.style.display = "block";
+  page.style.opacity = "0";
+  qualificacoesPage.style.opacity = "1";
 });
 
 // Faz a página Skills aparecer
 habilidades.addEventListener('click', () => {
-  page.style.display = "none";
-  habilidadesPage.style.display = "block";
+  page.style.opacity = "0";
+  habilidadesPage.style.opacity = "1";
 });

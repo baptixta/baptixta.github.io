@@ -173,7 +173,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
 }
 
 .skills {
@@ -193,6 +193,26 @@ a {
   transition: all .3s ease;
 }
 
+.back {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Botão Voltar */
+.fa-angle-double-left {
+  color: #dedede;
+  margin-top: 55px;
+  transition: all .5s ease-in-out;
+}
+
+.fa-angle-double-left:hover {
+  cursor: pointer;
+  transform: scale(2);
+  transition: all .4s ease-in-out;
+}
+
 /* PAGES - DEVELOPMENT */
 
 .development-page {
@@ -203,7 +223,38 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
+}
+
+.development-content {
+  align-items: center;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.development-title {
+  color: #dedede;
+  font: 45px 'Trebuchet MS';
+  font-weight: 900;
+  margin: 10px 0px 55px 0px;
+}
+
+.development-subtitle {
+  color: #dedede;
+  font: 36px 'Trebuchet MS';
+  font-weight: 900;
+  margin: 10px auto;
+  max-width: 600px;
+  padding-right: 30px;
+  border-right: 1px solid #dedede;
+}
+
+.development-info {
+  color: #dedede;
+  font: 20px 'Trebuchet MS';
+  margin: 10px auto;
+  max-width: 600px;
+  padding: 10px 0px 0px 40px;
 }
 
 /* PAGES - PORTFOLIO */
@@ -216,7 +267,11 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
+}
+
+.loading {
+  transform: scale(0.4);
 }
 
 /* PAGES - EDUCATION */
@@ -229,7 +284,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
 }
 
 /* PAGES - QUALIFICAÇÕES */
@@ -242,7 +297,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
 }
 
 /* PAGES - SKILLS */
@@ -255,7 +310,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all 1s ease;
+  transition: all .6s ease;
 }
 
 /* Social Media */
