@@ -43,3 +43,21 @@ habilidades.addEventListener('click', () => {
   page.style.opacity = "0";
   habilidadesPage.style.opacity = "1";
 });
+
+// ------------------------------------
+// ------------------------------------
+// Fazer o texto do Portfolio aparecer
+
+let portolioBox = document.querySelector('.portfolio-box');
+let portfolioInfo = document.querySelector('.portfolio-info');
+
+forEach() {
+  
+}
+
+
+portfolioInfo.style.opacity = "0";
+
+portolioBox.addEventListener('mouseover', () => {
+  portfolioInfo.style.opacity = "1";
+});

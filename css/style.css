@@ -288,10 +288,27 @@ a {
   margin: 10px auto;
 }
 
-.portfolio-subtitle:hover {
-
+.portfolio-info {
+  font: 20px 'Trebuchet MS';
+  margin: 10px auto;
+  padding: 5px;
 }
 
+.portfolio-info-two {
+  font: 20px 'Trebuchet MS';
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.portfolio-info-three {
+  font: 20px 'Trebuchet MS';
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
 /* PAGES - EDUCATION */
 
 .education-page {
