@@ -488,6 +488,13 @@ a {
   }
 }
 
+@media (max-width: 1024px){
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   .me {
     padding: 20px 0px;
