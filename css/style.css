@@ -488,12 +488,12 @@ a {
   }
 }
 
-@media (max-width: 1024px){
-  .skills-content {
-    display: flex;
-    flex-direction: column;
+  @media (max-width: 1024px){
+    .skills-content {
+      display: flex;
+      flex-direction: column;
+    }
   }
-}
 
 @media (max-width: 768px) {
   .me {
@@ -592,7 +592,7 @@ a {
   }
 
   .info-general {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .info-item {
@@ -603,5 +603,9 @@ a {
     font-size: 21px;
     margin: 10px auto;
     padding: 0px 10px;
+  }
+
+  .experience-skills {
+    height: 100%;
   }
 }
