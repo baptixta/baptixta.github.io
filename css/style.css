@@ -173,7 +173,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all .6s ease;
+  transition: all 1s ease;
 }
 
 .skills {
@@ -193,26 +193,6 @@ a {
   transition: all .3s ease;
 }
 
-.back {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-
-/* Botão Voltar */
-.fa-angle-double-left {
-  color: #dedede;
-  margin-top: 55px;
-  transition: all .5s ease-in-out;
-}
-
-.fa-angle-double-left:hover {
-  cursor: pointer;
-  transform: scale(2);
-  transition: all .4s ease-in-out;
-}
-
 /* PAGES - DEVELOPMENT */
 
 .development-page {
@@ -223,7 +203,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all .6s ease;
+  transition: all 1s ease;
 }
 
 .development-content {
@@ -255,6 +235,15 @@ a {
   margin: 10px auto;
   max-width: 600px;
   padding: 10px 0px 0px 40px;
+  transition: all 1s ease;
+}
+
+.development-years {
+  color: #dedede;
+  float: right;
+  font: 14px 'Trebuchet MS';
+  margin-top: 7px;
+  padding-right: 10px
 }
 
 /* PAGES - PORTFOLIO */
@@ -267,43 +256,7 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-<<<<<<< HEAD
   transition: all 1s ease;
-<<<<<<< HEAD
-}
-
-.portfolio-content {
-  display: flex;
-  margin-top: 55px;
-}
-
-.portfolio-box {
-  border: 7px solid #dedede;
-  border-radius: 2px;
-  color: #dedede;
-  margin: 0px 15px;
-  padding: 20px;
-  width: 180px;
-  height: 180px;
-  transition: all .4s ease;
-}
-
-.portfolio-box:hover {
-  color: #d63b1f;
-  cursor: pointer;
-  background: #dedede;
-  transition: all .4s ease;
-=======
-  transition: all .6s ease;
->>>>>>> parent of d2a424e... Site Profissional | Script Menu Skills + Versão Inĝlês
-}
-
-.loading {
-  transform: scale(0.4);
-}
-
-<<<<<<< HEAD
-=======
 }
 
 .portfolio-content {
@@ -335,7 +288,6 @@ a {
   margin: 10px auto;
 }
 
->>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
 .portfolio-info {
   font: 20px 'Trebuchet MS';
   margin: 10px auto;
@@ -345,8 +297,6 @@ a {
 .portfolio-link {
   text-decoration: none;
 }
-=======
->>>>>>> parent of d2a424e... Site Profissional | Script Menu Skills + Versão Inĝlês
 /* PAGES - EDUCATION */
 
 .education-page {
@@ -357,20 +307,11 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all .6s ease;
+  transition: all 1s ease;
 }
 
-/* PAGES - QUALIFICAÇÕES */
+.education-content {
 
-.qualification-page {
-  align-items: center;
-  background: #d63b1f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all .6s ease;
 }
 
 /* PAGES - SKILLS */
@@ -383,7 +324,59 @@ a {
   justify-content: center;
   height: 100vh;
   position: relative;
-  transition: all .6s ease;
+  transition: all 1s ease;
+}
+
+.skills-title {
+  color: #dedede;
+  font: 45px 'Trebuchet MS';
+  font-weight: 700;
+  margin: 10px 0px 45px 0px;
+}
+
+.skills-subtitle {
+  color: #dedede;
+  font: 32px 'Trebuchet MS';
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-box {
+  border: 7px solid #dedede;
+  border-radius: 2px;
+  margin: 0px 15px;
+  padding: 20px;
+  width: 200px;
+}
+
+.skills-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-li {
+  color: #dedede;
+  list-style: none;
+  font: 20px 'Trebuchet MS';
+  padding: 5px 0px;
+}
+
+/* Botão Voltar */
+.fa-angle-double-left {
+  color: #dedede;
+  margin-top: 55px;
+  transition: all .4s ease-in-out;
+}
+
+.fa-angle-double-left:hover {
+  cursor: pointer;
+  transform: scale(1.7);
+  transition: all .3s ease-in-out;
 }
 
 /* Social Media */
@@ -422,6 +415,28 @@ a {
   cursor: pointer;
   transform: scale(1.3);
   transition: all .4s ease;
+}
+
+/* Language */
+
+.language {
+  top: 0;
+  color: #dedede;
+  margin: 8px 5px;
+  position: fixed;
+  right: 0;
+  transform: scale(0.5);
+  transition: all .6s ease;
+  z-index: 2;
+}
+
+.language:hover {
+  transform: scale(0.6);
+  transition: all .4s ease;
+}
+
+.flag {
+  border-radius: 3px;
 }
 
 /* Animation */
@@ -473,21 +488,28 @@ a {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .me {
-    padding: 25px 0px;
+    padding: 20px 0px;
+    max-width: 145px;
   }
 
   .title {
-    margin: 12px auto;
+    margin: 0 auto;
   }
 
   .sub-title {
     font: 28px 'Trebuchet MS';
+    font-weight: 600;
   }
 
   .skills {
     flex-direction: column;
+  }
+
+  .icon {
+    margin: 14px 14px;
+    transform: scale(1.3);
   }
 
   .icons {
@@ -500,19 +522,20 @@ a {
   }
 
   .info-desc {
-    font: 33px 'Trebuchet MS';
+    font: 23px 'Trebuchet MS';
+    line-height: 28px;
     padding: 22px 0;
   }
 
   .info-item {
-    padding: 20px 55px;
+    font-size: 17px;
+    padding: 20px 40px;
   }
 
   .arrowExperience {
-    margin-top: 7em;
+    margin-top: 5.5em;
     transform: scale(1);
   }
-<<<<<<< HEAD
 
   .fa-angle-up {
     margin-bottom: 10px;
@@ -546,7 +569,6 @@ a {
   .portfolio-box {
     margin: 20px auto;
     height: auto;
-<<<<<<< HEAD
     width: 80%;
   }
 }
@@ -558,7 +580,6 @@ a {
   }
 
   .me {
-
     padding: 15px 0px;
     max-width: 135px;
   }
@@ -575,10 +596,5 @@ a {
     font-size: 21px;
     margin: 10px auto;
     padding: 0px 10px;
-=======
-    width: 100%;
->>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
   }
-=======
->>>>>>> parent of d2a424e... Site Profissional | Script Menu Skills + Versão Inĝlês
 }
