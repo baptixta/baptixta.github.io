@@ -257,6 +257,7 @@ a {
   height: 100vh;
   position: relative;
   transition: all 1s ease;
+<<<<<<< HEAD
 }
 
 .portfolio-content {
@@ -288,6 +289,39 @@ a {
   margin: 10px auto;
 }
 
+=======
+}
+
+.portfolio-content {
+  display: flex;
+  margin-top: 55px;
+}
+
+.portfolio-box {
+  border: 7px solid #dedede;
+  border-radius: 2px;
+  color: #dedede;
+  margin: 0px 15px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  transition: all .4s ease;
+}
+
+.portfolio-box:hover {
+  color: #d63b1f;
+  cursor: pointer;
+  background: #dedede;
+  transition: all .4s ease;
+}
+
+.portfolio-subtitle {
+  font: 32px 'Trebuchet MS';
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+>>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
 .portfolio-info {
   font: 20px 'Trebuchet MS';
   margin: 10px auto;
@@ -569,6 +603,7 @@ a {
   .portfolio-box {
     margin: 20px auto;
     height: auto;
+<<<<<<< HEAD
     width: 80%;
   }
 }
@@ -597,5 +632,8 @@ a {
     font-size: 21px;
     margin: 10px auto;
     padding: 0px 10px;
+=======
+    width: 100%;
+>>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
   }
 }

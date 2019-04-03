@@ -18,10 +18,17 @@ let habilidadesPage = document.querySelector('.skills-page');
 let voltar = document.querySelectorAll('.fa-angle-double-left');
 
 // Deixando as "pages" invisíveis
+<<<<<<< HEAD
 developmentPage.style.display = "none";
 portfolioPage.style.display = "none";
 educacaoPage.style.display = "none";
 habilidadesPage.style.display = "none";
+=======
+developmentPage.style.opacity = "1";
+portfolioPage.style.opacity = "1";
+educacaoPage.style.opacity = "1";
+habilidadesPage.style.opacity = "1";
+>>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
 
 
 // Faz a página Development aparecer
@@ -38,8 +45,13 @@ portfolio.addEventListener('click', () => {
 
 // Faz a página Educação aparecer
 educacao.addEventListener('click', () => {
+<<<<<<< HEAD
   page.style.display = "none";
   educacaoPage.style.display = "flex";
+=======
+  page.style.opacity = "0";
+  educacaoPage.style.display = "1";
+>>>>>>> 855cf8fc722d1f374fa77fd9a7125ae814f92e1e
 });
 
 // Faz a página Skills aparecer
@@ -57,3 +69,7 @@ voltar.forEach((el, idx) => {
     page.style.display = "flex";
   })
 });
+
+// ------------------------------------
+// ------------------------------------
+// Fazer o texto do Portfolio aparecer
