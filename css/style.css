@@ -559,6 +559,10 @@ a {
     flex-direction: column;
   }
 
+  .skills-page {
+    height: 100%;
+  }
+
   .skills-content {
     display: flex;
     flex-direction: column;
