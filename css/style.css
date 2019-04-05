@@ -585,9 +585,14 @@ a {
 }
 
 @media (max-width: 450px) {
+  .arrowExperience {
+    display: none;
+  }
+
   .sub-title {
     font-size: 20px;
     font-weight: 600;
+    margin: 20px auto;
   }
 
   .me {
@@ -595,21 +600,70 @@ a {
     max-width: 135px;
   }
 
+  .language {
+    color: #dedede;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0.5);
+    transition: all .6s ease;
+    z-index: 2;
+  }
+
+  .socialMedia {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+  .about {
+    height: 100%;
+    padding-top: 45px;
+  }
+
   .info-general {
     flex-direction: column;
   }
 
   .info-item {
-    padding: 15px 15px;
+    font-size: 20px;
+    padding: 30px 0px;
   }
 
   .info-desc {
-    font-size: 21px;
-    margin: 10px auto;
-    padding: 0px 10px;
+    font-size: 19px;
+    margin-top: -5px;
+    text-align: center;
+    width: 85%;
   }
 
   .experience-skills {
     height: 100%;
+    padding-bottom: 124px;
+    padding-top: 40px;
   }
+
+  .experience-skills h2 {
+    color: #dedede;
+    font: 28px 'Trebuchet MS';
+    font-weight: 900;
+    margin: 0 auto;
+  }
+
+  .icons {
+    margin-top: 30px;
+    transform: scale(0.6);
+    padding: 0px 50px;
+}
+
+.pages {
+  height: 100%;
+}
+
+.pages h2 {
+  font: 25px 'Trebuchet MS';
 }
