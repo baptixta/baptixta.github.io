@@ -1,4 +1,5 @@
 /* DEFAULT */
+@import url('https://fonts.googleapis.com/css?family=Nunito:700');
 
 * {
   margin: 0 auto;
@@ -119,14 +120,14 @@ a {
 
 .title {
   color: #dedede;
-  font: 45px 'Trebuchet MS';
+  font: 45px 'Nunito', sans-serif;
   font-weight: 900;
   margin: 10px auto;
 }
 
 .sub-title {
   color: #dedede;
-  font: 25px 'Trebuchet MS';
+  font: 25px 'Nunito', sans-serif;
   font-weight: 900;
   margin: 10px auto;
   transition: all .7s ease;
@@ -135,7 +136,7 @@ a {
 .sub-title:hover {
   color: #dedede;
   cursor: crosshair;
-  font: 25px 'Trebuchet MS';
+  font: 25px 'Nunito', sans-serif;
   font-weight: 900;
   margin: 10px auto;
   transform: scale(1.2);
@@ -144,16 +145,17 @@ a {
 
 .info-desc {
   color: #dedede;
-  font: 20px 'Trebuchet MS';
+  font: 20px 'Nunito', sans-serif;
   margin: 10px auto;
   max-width: 600px;
   padding: 10px 10px;
+  text-align: center;
 }
 
 .info-general {
   display: flex;
   color: #dedede;
-  font: 13px 'Trebuchet MS';
+  font: 13px 'Nunito', sans-serif;
   margin: 10px auto;
   /* max-width: 600px; */
   padding: 10px 10px;
@@ -214,14 +216,14 @@ a {
 
 .development-title {
   color: #dedede;
-  font: 45px 'Trebuchet MS';
+  font: 45px 'Nunito', sans-serif;
   font-weight: 900;
   margin: 10px 0px 55px 0px;
 }
 
 .development-subtitle {
   color: #dedede;
-  font: 36px 'Trebuchet MS';
+  font: 36px 'Nunito', sans-serif;
   font-weight: 900;
   margin: 10px auto;
   max-width: 600px;
@@ -231,7 +233,7 @@ a {
 
 .development-info {
   color: #dedede;
-  font: 20px 'Trebuchet MS';
+  font: 20px 'Nunito', sans-serif;
   margin: 10px auto;
   max-width: 600px;
   padding: 10px 0px 0px 40px;
@@ -241,7 +243,7 @@ a {
 .development-years {
   color: #dedede;
   float: right;
-  font: 14px 'Trebuchet MS';
+  font: 14px 'Nunito', sans-serif;
   margin-top: 7px;
   padding-right: 10px
 }
@@ -283,13 +285,13 @@ a {
 }
 
 .portfolio-subtitle {
-  font: 32px 'Trebuchet MS';
+  font: 32px 'Nunito', sans-serif;
   font-weight: 700;
   margin: 10px auto;
 }
 
 .portfolio-info {
-  font: 20px 'Trebuchet MS';
+  font: 20px 'Nunito', sans-serif;
   margin: 10px auto;
   padding: 5px;
 }
@@ -329,14 +331,14 @@ a {
 
 .skills-title {
   color: #dedede;
-  font: 45px 'Trebuchet MS';
+  font: 45px 'Nunito', sans-serif;
   font-weight: 700;
   margin: 10px 0px 45px 0px;
 }
 
 .skills-subtitle {
   color: #dedede;
-  font: 32px 'Trebuchet MS';
+  font: 32px 'Nunito', sans-serif;
   font-weight: 700;
   margin: 10px auto;
 }
@@ -362,7 +364,7 @@ a {
 .skills-li {
   color: #dedede;
   list-style: none;
-  font: 20px 'Trebuchet MS';
+  font: 20px 'Nunito', sans-serif;
   padding: 5px 0px;
 }
 
@@ -506,7 +508,7 @@ a {
   }
 
   .sub-title {
-    font: 28px 'Trebuchet MS';
+    font: 28px 'Nunito', sans-serif;
     font-weight: 600;
   }
 
@@ -525,11 +527,11 @@ a {
   }
 
   .info-general {
-    font: 15px 'Trebuchet MS';
+    font: 15px 'Nunito', sans-serif;
   }
 
   .info-desc {
-    font: 23px 'Trebuchet MS';
+    font: 23px 'Nunito', sans-serif;
     line-height: 28px;
     padding: 22px 0;
   }
@@ -585,6 +587,14 @@ a {
 }
 
 @media (max-width: 450px) {
+  .up {
+    margin: 7px 15px;
+  }
+
+  .up:hover {
+    transform: scale(1);
+  }
+
   .arrowExperience {
     display: none;
   }
@@ -649,7 +659,7 @@ a {
 
   .experience-skills h2 {
     color: #dedede;
-    font: 28px 'Trebuchet MS';
+    font: 28px 'Nunito', sans-serif;
     font-weight: 900;
     margin: 0 auto;
   }
@@ -662,8 +672,9 @@ a {
 
 .pages {
   height: 100%;
+  padding-bottom: 110px;
 }
 
 .pages h2 {
-  font: 25px 'Trebuchet MS';
+  font: 25px 'Nunito', sans-serif;
 }
