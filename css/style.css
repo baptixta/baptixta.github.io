@@ -588,7 +588,8 @@ a {
 
 @media (max-width: 450px) {
   .up {
-    margin: 7px 15px;
+    margin: 0px 15px;
+    transform: scale(0.7);
   }
 
   .up:hover {
