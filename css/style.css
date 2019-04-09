@@ -609,8 +609,8 @@ a {
   }
 
   .skills-box {
+    border-radius: 2px;
     margin: 15px 0;
-    width: 100%;
   }
 
   .portfolio-content {
@@ -707,13 +707,35 @@ a {
     margin-top: 30px;
     transform: scale(0.6);
     padding: 0px 50px;
-}
+  }
 
-.pages {
-  height: 100%;
-  padding-bottom: 110px;
-}
+  .pages {
+    height: 100%;
+    padding-bottom: 110px;
+  }
 
-.pages h2 {
-  font: 25px 'Nunito', sans-serif;
-}
+  .pages h2 {
+    font: 25px 'Nunito', sans-serif;
+  }
+
+  .education-itens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-itens:first-child {
+    margin-bottom: 60px;
+  }
+
+  .education-icons {
+    font-size: 5em;
+  }
+
+  .education-itens:last-child::after {
+    display: none;
+  }
+
+  .education-ul {
+    padding: 0px;
+    text-align: center;
+  }
