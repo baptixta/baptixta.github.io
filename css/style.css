@@ -313,7 +313,31 @@ a {
 }
 
 .education-content {
+  display: flex;
+  flex-direction: column;
+}
 
+.education-itens {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.education-icons {
+  color: #f1f1f1;
+  font-size: 8em;
+}
+
+.education-ul {
+  color: #f1f1f1;
+  font: 22px 'Nunito', sans-serif;
+  font-weight: 700;
+  list-style: none;
+}
+
+.education-li {
+  padding: 3px 0px;
 }
 
 /* PAGES - SKILLS */
