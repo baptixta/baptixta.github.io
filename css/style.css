@@ -500,6 +500,7 @@ a {
   .me {
     margin-top: -20px;
     padding: 0;
+    width: 150px;
   }
 
   .title {
