@@ -5,7 +5,7 @@ function Aparecer() {
   document.querySelector('.baptixta').style.opacity = 1;
   document.querySelector('#first-arrow').style.opacity = 1;
 }
-setTimeout(Aparecer,220);
+setTimeout(Aparecer, 285);
 
 // Icons animation
 // let icons = document.querySelectorAll('.icons');

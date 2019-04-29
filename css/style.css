@@ -77,14 +77,14 @@ a {
   height: 10px;
   position: absolute;
   transform: rotate(45deg);
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-in;
   width: 35px;
 }
 
 .arrow:hover::before {
-  height: 18px;
-  width: 50px;
-  transition: all .3s ease-in-out;
+  height: 12px;
+  width: 40px;
+  transition: all .3s ease-in;
 }
 
 .arrow::after {
@@ -94,14 +94,14 @@ a {
   left: 2px;
   position: absolute;
   transform: rotate(-45deg);
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-in;
   width: 35px;
 }
 
 .arrow:hover::after {
-  height: 18px;
-  width: 50px;
-  transition: all .3s ease-in-out;
+  height: 12px;
+  width: 40px;
+  transition: all .3s ease-in;
 }
 
 /* About */
