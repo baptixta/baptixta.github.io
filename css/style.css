@@ -198,17 +198,6 @@ a {
 
 /* PAGES - DEVELOPMENT */
 
-.development-page {
-  align-items: center;
-  background: #d63b1f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all 1s ease;
-}
-
 .development-content {
   align-items: center;
   display: flex;
@@ -251,20 +240,8 @@ a {
 
 /* PAGES - PORTFOLIO */
 
-.portfolio-page {
-  align-items: center;
-  background: #d63b1f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all 1s ease;
-}
-
 .portfolio-content {
   display: flex;
-  margin-top: 55px;
 }
 
 .portfolio-box {
@@ -301,17 +278,6 @@ a {
   text-decoration: none;
 }
 /* PAGES - EDUCATION */
-
-.education-page {
-  align-items: center;
-  background: #d63b1f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all 1s ease;
-}
 
 .education-content {
   display: flex;
@@ -356,17 +322,6 @@ a {
 }
 
 /* PAGES - SKILLS */
-
-.skills-page {
-  align-items: center;
-  background: #d63b1f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  transition: all 1s ease;
-}
 
 .skills-title {
   color: #dedede;
@@ -495,6 +450,13 @@ a {
 }
 
 /* Responsive */
+@media (max-width: 4000px) {
+  .arrowExperience {
+    transform: scale(0.7);
+    margin-top: 1.6em;
+  }
+}
+
 
 @media (max-width: 1366px) {
   .me {

@@ -1,7 +1,10 @@
 .accordion {
   align-items: center;
+  color: #dedede;
   display: flex;
   flex-direction: column;
+  font: 45px 'Nunito', sans-serif;
+  font-weight: 900;
   justify-content: center;
   padding: 10px 0;
   position: relative;
@@ -15,13 +18,13 @@
   position: absolute;
   right: -25px;
   transform: rotate(45deg);
-  transition: all .2s ease;
+  transition: all .4s ease;
   width: 15px;
 }
 
 .accordion:hover::before {
   right: -32px;
-  transition: all .2s ease;
+  transition: all .4s ease;
 }
 
 .accordion::after {
@@ -32,13 +35,13 @@
   position: absolute;
   right: -32px;
   transform: rotate(-45deg);
-  transition: all .2s ease;
+  transition: all .4s ease;
   width: 15px;
 }
 
 .accordion:hover::after {
   right: -25px;
-  transition: all .2s ease;
+  transition: all .4s ease;
 }
 
 
@@ -52,4 +55,10 @@
 .is-active {
   height: 100%;
   transition: all .5s ease;
+}
+
+@media (max-width: 414px) {
+  .accordion {
+    font: 25px 'Nunito', sans-serif;
+  }
 }
