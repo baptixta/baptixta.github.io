@@ -1,0 +1,41 @@
+{
+  "name": "web-workflow",
+  "version": "1.0.0",
+  "description": "improving web development workflow",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baptixta/web-workflow.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass"
+  ],
+  "author": "Davi Baptista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baptixta/web-workflow/issues"
+  },
+  "homepage": "https://github.com/baptixta/web-workflow#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "firefox >= 4",
+    "safari 7",
+    "safari 8",
+    "IE 8",
+    "IE 9",
+    "IE 10",
+    "IE 11"
+  ]
+}
