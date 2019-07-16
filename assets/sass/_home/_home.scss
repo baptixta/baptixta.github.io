@@ -28,15 +28,12 @@
     font: 2.2rem 'Oswald';
     padding: 10px 0px;
 
-    &-lg {
-        color: $text;
-        font: 2.4rem 'Oswald';
-        padding: 10px 0px;
+    &.large {
+        font: 2.4rem 'Oswald';        
     }
 
-    &-highlight {
+    &.highlight {
         color: $text-highlight;
-        font: 2.2rem 'Oswald';
         padding: 10px 0px 10px 10px;
     }
 }
@@ -52,3 +49,4 @@
     display: flex;
     padding-top: 70px;
 }
+

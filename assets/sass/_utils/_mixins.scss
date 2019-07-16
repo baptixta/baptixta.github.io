@@ -1,0 +1,11 @@
+@mixin MQ-MAX($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}
+
+@mixin MQ-MIN($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}
