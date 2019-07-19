@@ -150,6 +150,15 @@
         font: 600 1.8rem;
         position: absolute;
         top: -35px;
+
+        @include MQ-MAX($S) {
+            top: -30px;
+        }
+    }
+
+    @include MQ-MAX($S) {
+        font-size: 1.1rem;
+        margin: 55px auto 0px auto;
     }
 }
 
