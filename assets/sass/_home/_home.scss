@@ -9,7 +9,11 @@
 .main {
     display: grid;
     font-family: 'Roboto Mono', monospace;
-    grid-template-areas: "me content content"
+    grid-template-areas: "me content content content";
+
+    @include MQ-MAX($M) {
+        grid-template-areas: "me" "content";
+    }
 }
 
 /* Side Content */
@@ -20,6 +24,13 @@
     grid-area: me;
     height: 100vh;
     padding: 0 30px;
+
+    @include MQ-MAX($M) {
+        border-bottom: 2px solid $line;
+        border-right: none;
+        height: auto;
+        padding: 0;
+    }
 }
 
 .about-me {
@@ -27,21 +38,41 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+
+    @include MQ-MAX($M) {
+        margin-top: 30px;
+    }
 }
 
-.about-me > img {
+.me {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include MQ-MAX($M) {
+        flex-direction: row;
+    }
+}
+
+.me > img {
     border-radius: 5px;
     margin-bottom: 10px;
     max-width: 170px;
     min-width: 70px;
+
+    @include MQ-MAX($M) {
+        margin: 0px 15px 0px 0px;
+        max-width: 105px;
+    }
 }
 
-.about-me > h1 {
+.me > div > h1 {
     color: $text;
     font-size: 2rem;
 }
 
-.about-me > h2 {
+.me > div > h2 {
     color: $text;
     font-size: 1.2rem;
 }
@@ -50,6 +81,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15px;
+
+    @include MQ-MAX($M) {
+        grid-template-columns: repeat(6, 1fr);
+        margin: 15px auto;
+    }
 }
 
 .social-media > a {
@@ -67,6 +103,10 @@
 .social-media > a > img {
     max-width: 80px;
     padding: 5px;
+
+    @include MQ-MAX($M) {
+        max-width: 45px;
+    }
 }
 
 
@@ -75,6 +115,15 @@
 .main-content {
     background: $background-main;
     grid-area: content;
+
+    @include MQ-MAX($M) {
+        height: 100vh;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
 }
 
 .description {
@@ -86,7 +135,6 @@
     margin: 60px auto 0px auto;
     padding: 10px;
     position: relative;
-    width: 80%;
 
     &:before {
         color: $text;
@@ -96,4 +144,5 @@
         top: -35px;
     }
 }
+
 
