@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -6,13 +6,24 @@
   margin: 0;
   padding: 0; }
 
-.container {
+.main {
+  display: grid;
+  font-family: 'Roboto Mono', monospace;
+  grid-template-areas: "me content content content content content"; }
+
+/* Side Content */
+.side-content {
+  background: #222222;
+  border-right: 2px solid #7a5ab9;
+  grid-area: me;
+  height: 100vh; }
+
+.about-me {
   -webkit-box-align: center;
   -webkit-align-items: center;
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #2f2f2f;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -25,43 +36,37 @@
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  margin-top: 60px; }
 
-.introduction {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex; }
+.about-me > img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 170px;
+  min-width: 70px; }
 
-.img {
-  border-radius: 50%; }
+.about-me > h1 {
+  color: #694ca4;
+  font-size: 2rem; }
 
-.title {
-  color: #ccc;
-  font: 2.2rem 'Oswald';
-  padding: 10px 0px; }
-  .title.large {
-    font: 2.4rem 'Oswald'; }
-  .title.highlight {
-    color: tomato;
-    padding: 10px 0px 10px 10px; }
-
-.text {
-  color: #ccc;
-  font: 1.6rem 'Oswald';
-  padding: 5px 0px;
-  text-align: center; }
+.about-me > h2 {
+  color: #694ca4;
+  font-size: 1.2rem; }
 
 .social-media {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 70px; }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px; }
+
+.social-media > a {
+  background: #694ca4;
+  border-radius: 5px;
+  margin: 10px; }
+
+.social-media > a > img {
+  max-width: 80px;
+  padding: 5px; }
+
+/* Main Content */
+.main-content {
+  background: #1b1b1b;
+  grid-area: content; }

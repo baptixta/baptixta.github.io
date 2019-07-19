@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,47 +6,66 @@
     padding: 0;
 }
 
-.container {
+.main {
+    display: grid;
+    font-family: 'Roboto Mono', monospace;
+    grid-template-areas: "me content content content content content"
+}
+
+/* Side Content */
+
+.side-content {
+    background: $background-side;
+    border-right: 2px solid $line;
+    grid-area: me;
+    height: 100vh;
+}
+
+.about-me {
     align-items: center;
-    background: $background;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: center;
+    margin-top: 60px;
 }
 
-.introduction {
-    display: flex;
+.about-me > img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 170px;
+    min-width: 70px;
 }
 
-.img {
-    border-radius: 50%;
-}
-
-.title {
+.about-me > h1 {
     color: $text;
-    font: 2.2rem 'Oswald';
-    padding: 10px 0px;
-
-    &.large {
-        font: 2.4rem 'Oswald';        
-    }
-
-    &.highlight {
-        color: $text-highlight;
-        padding: 10px 0px 10px 10px;
-    }
+    font-size: 2rem;
 }
 
-.text {
+.about-me > h2 {
     color: $text;
-    font: 1.6rem 'Oswald';
-    padding: 5px 0px;
-    text-align: center;
+    font-size: 1.2rem;
 }
 
 .social-media {
-    display: flex;
-    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
 }
 
+.social-media > a {
+    background: $text;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.social-media > a > img {
+    max-width: 80px;
+    padding: 5px;
+}
+
+
+/* Main Content */
+
+.main-content {
+    background: $background-main;
+    grid-area: content;
+}
