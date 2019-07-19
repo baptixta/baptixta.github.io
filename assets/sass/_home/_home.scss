@@ -9,7 +9,7 @@
 .main {
     display: grid;
     font-family: 'Roboto Mono', monospace;
-    grid-template-areas: "me content content content content content"
+    grid-template-areas: "me content content"
 }
 
 /* Side Content */
@@ -19,6 +19,7 @@
     border-right: 2px solid $line;
     grid-area: me;
     height: 100vh;
+    padding: 0 30px;
 }
 
 .about-me {
@@ -55,6 +56,12 @@
     background: $text;
     border-radius: 5px;
     margin: 10px;
+    transition: background .3s ease;
+
+    &:hover {
+        background: $line;
+        transition: background .3s ease;
+    }
 }
 
 .social-media > a > img {
@@ -69,3 +76,24 @@
     background: $background-main;
     grid-area: content;
 }
+
+.description {
+    background: $text;
+    border-radius: 5px;
+    color: $background-side;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 60px auto 0px auto;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+
+    &:before {
+        color: $text;
+        content: 'eai, beleza?';
+        font: 600 1.8rem 'Roboto';
+        position: absolute;
+        top: -40px;
+    }
+}
+
