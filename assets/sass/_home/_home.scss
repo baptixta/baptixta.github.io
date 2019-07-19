@@ -10,10 +10,6 @@
     display: grid;
     font-family: 'Roboto Mono', monospace;
     grid-template-areas: "me content content content";
-
-    @include MQ-MAX($M) {
-        grid-template-areas: "me" "content";
-    }
 }
 
 /* Side Content */
@@ -24,13 +20,6 @@
     grid-area: me;
     height: 100vh;
     padding: 0 30px;
-
-    @include MQ-MAX($M) {
-        border-bottom: 2px solid $line;
-        border-right: none;
-        height: auto;
-        padding: 0;
-    }
 }
 
 .about-me {
@@ -38,10 +27,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-
-    @include MQ-MAX($M) {
-        margin-top: 30px;
-    }
 }
 
 .me {
@@ -49,10 +34,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    @include MQ-MAX($M) {
-        flex-direction: row;
-    }
 }
 
 .me > img {
@@ -60,15 +41,6 @@
     margin-bottom: 10px;
     max-width: 170px;
     min-width: 70px;
-
-    @include MQ-MAX($M) {
-        margin: 0px 15px 0px 0px;
-        max-width: 105px;
-    }
-
-    @include MQ-MAX($S) {
-        max-width: 70px;
-    }
 }
 
 .me > div > h1 {
@@ -85,11 +57,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15px;
-
-    @include MQ-MAX($M) {
-        grid-template-columns: repeat(6, 1fr);
-        margin: 15px auto;
-    }
 }
 
 .social-media > a {
@@ -107,14 +74,6 @@
 .social-media > a > img {
     max-width: 80px;
     padding: 5px;
-
-    @include MQ-MAX($M) {
-        max-width: 45px;
-    }
-
-    @include MQ-MAX($S) {
-        max-width: 40px;
-    }
 }
 
 
@@ -123,10 +82,6 @@
 .main-content {
     background: $background-main;
     grid-area: content;
-
-    @include MQ-MAX($M) {
-        height: 100vh;
-    }
 }
 
 .wrapper {
@@ -150,10 +105,6 @@
         font: 600 1.8rem;
         position: absolute;
         top: -35px;
-
-        @include MQ-MAX($S) {
-            top: -30px;
-        }
     }
 
     @include MQ-MAX($S) {
@@ -163,3 +114,71 @@
 }
 
 
+/* MQ - Tablet */
+
+@include MQ-MAX($M) {
+    .main {
+        grid-template-areas: "me" "content";
+    }
+
+    /* Side Content */
+
+    .side-content {
+        border-bottom: 2px solid $line;
+        border-right: none;
+        height: auto;
+        padding: 0;
+    }
+
+    .about-me {
+        margin-top: 30px;
+    }
+
+    .me {
+        flex-direction: row;
+    }
+
+    .me > img {
+        margin: 0px 15px 0px 0px;
+        max-width: 105px;
+    }
+
+    .social-media {
+        grid-template-columns: repeat(6, 1fr);
+        margin: 15px auto;
+    }
+
+    .social-media > a > img {
+        max-width: 45px;
+    }
+
+    /* Main Content */
+
+    .main-content {
+        height: 100vh;
+    }
+
+    .description {
+        &:before {
+            top: -30px;
+        }
+    }
+
+}
+
+
+/* MQ - Smartphones */
+
+
+@include MQ-MAX($S) {
+
+    /* Side Content */
+
+    .me > img {
+        max-width: 70px;
+    }
+
+    .social-media > a > img {
+        max-width: 40px; 
+    }
+}
