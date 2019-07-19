@@ -133,7 +133,7 @@
   @media screen and (max-width: 768px) {
     .social-media > a > img {
       max-width: 45px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 414px) {
     .social-media > a > img {
       max-width: 40px; } }
 

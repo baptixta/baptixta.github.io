@@ -112,7 +112,7 @@
         max-width: 45px;
     }
 
-    @include MQ-MAX($M) {
+    @include MQ-MAX($S) {
         max-width: 40px;
     }
 }
