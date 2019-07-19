@@ -93,6 +93,9 @@
     .me > img {
       margin: 0px 15px 0px 0px;
       max-width: 105px; } }
+  @media screen and (max-width: 414px) {
+    .me > img {
+      max-width: 70px; } }
 
 .me > div > h1 {
   color: #694ca4;
@@ -130,6 +133,9 @@
   @media screen and (max-width: 768px) {
     .social-media > a > img {
       max-width: 45px; } }
+  @media screen and (max-width: 768px) {
+    .social-media > a > img {
+      max-width: 40px; } }
 
 /* Main Content */
 .main-content {
