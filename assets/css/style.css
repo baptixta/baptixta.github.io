@@ -75,7 +75,8 @@
 
 .me > div > h2 {
   color: #694ca4;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-align: center; }
 
 .social-media {
   display: grid;
@@ -123,10 +124,26 @@
     font: 600 1.8rem;
     position: absolute;
     top: -35px; }
-  @media screen and (max-width: 414px) {
-    .description {
-      font-size: 1.1rem;
-      margin: 55px auto 0px auto; } }
+
+.skills {
+  color: #694ca4;
+  margin-top: 35px; }
+
+.skills > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 15px auto; }
+
+.skills > ul > li {
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 15px  0px 15px 20px;
+  position: relative; }
+  .skills > ul > li:before {
+    content: '-';
+    left: 0;
+    margin-left: -20px;
+    position: absolute; }
 
 /* MQ - Tablet */
 @media screen and (max-width: 768px) {
@@ -151,6 +168,8 @@
   .me > img {
     margin: 0px 15px 0px 0px;
     max-width: 105px; }
+  .me > div > h2 {
+    text-align: unset; }
   .social-media {
     grid-template-columns: repeat(6, 1fr);
     margin: 15px auto; }
@@ -168,4 +187,8 @@
   .me > img {
     max-width: 70px; }
   .social-media > a > img {
-    max-width: 40px; } }
+    max-width: 40px; }
+  /* Main Content */
+  .description {
+    font-size: 1.1rem;
+    margin: 55px auto 0px auto; } }
