@@ -12,6 +12,16 @@
     grid-template-areas: "me content content content";
 }
 
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &.space-between {
+        justify-content: space-between;
+    }
+}
+
 /* Side Content */
 
 .side-content {
@@ -85,6 +95,12 @@
     grid-area: content;
 }
 
+.main-content > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 15px auto;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 90%;
@@ -114,12 +130,6 @@
     margin-top: 35px;
 }
 
-.skills > h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 15px auto;
-}
-
 .skills > ul > li {
     font-size: 1.2rem;
     list-style: none;
@@ -133,6 +143,15 @@
         position: absolute;
     }
 }
+
+footer {
+    bottom: 20px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+/* MQ - ESPECIAIS */
+
 
 
 /* MQ - Tablet */
