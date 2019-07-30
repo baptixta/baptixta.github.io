@@ -16,10 +16,11 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
 
-    &.space-between {
-        justify-content: space-between;
-    }
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
 }
 
 /* Side Content */
@@ -103,16 +104,19 @@
 
 .wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 65%;
 }
 
 .description {
+    align-items: center;
     background: $text;
     border-radius: 5px;
     color: $background-side;
+    display: flex;
     font-size: 1.4rem;
     font-weight: 900;
-    margin: 60px auto 0px auto;
+    justify-content: center;
+    margin-top: 100px;
     padding: 10px;
     position: relative;
 
@@ -130,25 +134,24 @@
     margin-top: 35px;
 }
 
+.skills > h2 {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.skills > ul {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .skills > ul > li {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     list-style: none;
-    margin: 15px  0px 15px 20px;
+    padding: 15px 0;
     position: relative;
-
-    &:before {
-        content: '-';
-        left: 0;
-        margin-left: -20px;
-        position: absolute;
-    }
+    text-align: center;
 }
 
-footer {
-    bottom: 20px;
-    margin: 0 auto;
-    position: fixed;
-}
 
 /* MQ - ESPECIAIS */
 
@@ -159,6 +162,10 @@ footer {
 @include MQ-MAX($M) {
     .main {
         grid-template-areas: "me" "content";
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 
     /* Side Content */
@@ -199,13 +206,23 @@ footer {
     /* Main Content */
 
     .main-content {
-        height: 100vh;
+        height: 100%;
+    }
+
+    .wrapper {
+        width: 85%;
     }
 
     .description {
+        margin-top: 60px;
+
         &:before {
             top: -30px;
         }
+    }
+
+    .skills > ul > li {
+        font-size: 1.4rem;
     }
 }
 

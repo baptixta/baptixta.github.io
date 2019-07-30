@@ -27,12 +27,10 @@
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .content.space-between {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-       -moz-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+
+h2 {
+  font-size: 2.2rem;
+  text-align: center; }
 
 /* Side Content */
 .side-content {
@@ -135,15 +133,30 @@
 
 .wrapper {
   margin: 0 auto;
-  width: 90%; }
+  width: 65%; }
 
 .description {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #694ca4;
   border-radius: 5px;
   color: #222222;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 1.4rem;
   font-weight: 900;
-  margin: 60px auto 0px auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
   padding: 10px;
   position: relative; }
   .description:before {
@@ -157,27 +170,28 @@
   color: #694ca4;
   margin-top: 35px; }
 
-.skills > ul > li {
-  font-size: 1.2rem;
-  list-style: none;
-  margin: 15px  0px 15px 20px;
-  position: relative; }
-  .skills > ul > li:before {
-    content: '-';
-    left: 0;
-    margin-left: -20px;
-    position: absolute; }
+.skills > h2 {
+  padding-bottom: 15px;
+  padding-top: 10px; }
 
-footer {
-  bottom: 20px;
-  margin: 0 auto;
-  position: fixed; }
+.skills > ul {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.skills > ul > li {
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 15px 0;
+  position: relative;
+  text-align: center; }
 
 /* MQ - ESPECIAIS */
 /* MQ - Tablet */
 @media screen and (max-width: 768px) {
   .main {
     grid-template-areas: "me" "content"; }
+  h2 {
+    font-size: 2rem; }
   /* Side Content */
   .side-content {
     border-bottom: 2px solid #7a5ab9;
@@ -206,9 +220,15 @@ footer {
     max-width: 45px; }
   /* Main Content */
   .main-content {
-    height: 100vh; }
-  .description:before {
-    top: -30px; } }
+    height: 100%; }
+  .wrapper {
+    width: 85%; }
+  .description {
+    margin-top: 60px; }
+    .description:before {
+      top: -30px; }
+  .skills > ul > li {
+    font-size: 1.4rem; } }
 
 /* MQ - Smartphones */
 @media screen and (max-width: 414px) {
