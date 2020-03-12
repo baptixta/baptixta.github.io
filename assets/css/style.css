@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -8,8 +9,8 @@
 
 .main {
   display: grid;
-  font-family: 'Roboto Mono', monospace;
-  grid-template-areas: "me content content content"; }
+  font-family: 'Rubik', sans-serif;
+  grid-template-areas: "me content content"; }
 
 .content {
   -webkit-box-align: center;
@@ -34,11 +35,10 @@ h2 {
 
 /* Side Content */
 .side-content {
-  background: #222222;
-  border-right: 2px solid #7a5ab9;
+  background: #694ca4;
   grid-area: me;
   height: 100vh;
-  padding: 0 30px; }
+  padding: 0 100px 0 60px; }
 
 .about-me {
   -webkit-box-align: center;
@@ -58,7 +58,7 @@ h2 {
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 60px; }
+  margin-top: 100px; }
 
 .me {
   -webkit-box-align: center;
@@ -84,20 +84,14 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.me > img {
-  border-radius: 5px;
-  margin-bottom: 10px;
-  max-width: 170px;
-  min-width: 70px; }
-
 .me > div > h1 {
-  color: #694ca4;
-  font-size: 2rem; }
+  color: #222222;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin: 5px 0; }
 
-.me > div > h2 {
-  color: #694ca4;
-  font-size: 1.2rem;
-  text-align: center; }
+.me > div > p {
+  font-family: 'Roboto Mono', sans-serif; }
 
 .social-media {
   display: grid;
@@ -107,7 +101,7 @@ h2 {
 .social-media > a {
   background: #694ca4;
   border-radius: 5px;
-  margin: 10px;
+  margin: 12px;
   -webkit-transition: background .3s ease;
   -moz-transition: background .3s ease;
   transition: background .3s ease; }
@@ -133,7 +127,7 @@ h2 {
 
 .wrapper {
   margin: 0 auto;
-  width: 65%; }
+  width: 75%; }
 
 .description {
   -webkit-box-align: center;
@@ -194,12 +188,11 @@ h2 {
     font-size: 2rem; }
   /* Side Content */
   .side-content {
-    border-bottom: 2px solid #7a5ab9;
     border-right: none;
     height: auto;
     padding: 0; }
   .about-me {
-    margin-top: 30px; }
+    margin-top: 50px; }
   .me {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -208,11 +201,6 @@ h2 {
        -moz-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row; }
-  .me > img {
-    margin: 0px 15px 0px 0px;
-    max-width: 105px; }
-  .me > div > h2 {
-    text-align: unset; }
   .social-media {
     grid-template-columns: repeat(6, 1fr);
     margin: 15px auto; }
@@ -233,8 +221,6 @@ h2 {
 /* MQ - Smartphones */
 @media screen and (max-width: 414px) {
   /* Side Content */
-  .me > img {
-    max-width: 70px; }
   .social-media > a > img {
     max-width: 40px; }
   /* Main Content */

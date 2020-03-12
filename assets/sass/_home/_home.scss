@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,8 +9,8 @@
 
 .main {
     display: grid;
-    font-family: 'Roboto Mono', monospace;
-    grid-template-areas: "me content content content";
+    font-family: 'Rubik', sans-serif;
+    grid-template-areas: "me content content";
 }
 
 .content {
@@ -26,18 +27,17 @@ h2 {
 /* Side Content */
 
 .side-content {
-    background: $background-side;
-    border-right: 2px solid $line;
+    background: $text;
     grid-area: me;
     height: 100vh;
-    padding: 0 30px;
+    padding: 0 100px 0 60px;
 }
 
 .about-me {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .me {
@@ -47,22 +47,15 @@ h2 {
     justify-content: center;
 }
 
-.me > img {
-    border-radius: 5px;
-    margin-bottom: 10px;
-    max-width: 170px;
-    min-width: 70px;
-}
-
 .me > div > h1 {
-    color: $text;
+    color: $background-side;
     font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 5px 0;
 }
 
-.me > div > h2 {
-    color: $text;
-    font-size: 1.2rem;
-    text-align: center;
+.me > div > p {
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 .social-media {
@@ -74,7 +67,7 @@ h2 {
 .social-media > a {
     background: $text;
     border-radius: 5px;
-    margin: 10px;
+    margin: 12px;
     transition: background .3s ease;
 
     &:hover {
@@ -104,7 +97,7 @@ h2 {
 
 .wrapper {
     margin: 0 auto;
-    width: 65%;
+    width: 75%;
 }
 
 .description {
@@ -171,27 +164,17 @@ h2 {
     /* Side Content */
 
     .side-content {
-        border-bottom: 2px solid $line;
         border-right: none;
         height: auto;
         padding: 0;
     }
 
     .about-me {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .me {
         flex-direction: row;
-    }
-
-    .me > img {
-        margin: 0px 15px 0px 0px;
-        max-width: 105px;
-    }
-
-    .me > div > h2 {
-        text-align: unset;
     }
 
     .social-media {
@@ -233,10 +216,6 @@ h2 {
 @include MQ-MAX($S) {
 
     /* Side Content */
-
-    .me > img {
-        max-width: 70px;
-    }
 
     .social-media > a > img {
         max-width: 40px; 
