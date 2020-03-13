@@ -30,7 +30,7 @@ h2 {
     background: $text;
     grid-area: me;
     height: 100vh;
-    padding: 0 100px 0 60px;
+    padding: 0 60px;
 }
 
 .about-me {
@@ -120,6 +120,16 @@ h2 {
         background-color: $bege;
     }
 
+    h2 {
+        font-size: 2rem;
+        margin: 10px 0px;
+    }
+
+    h3  {
+        font: 1.2rem 'Roboto Mono';
+        margin: 0px 0px 30px;
+    }
+
     h2, h3 {
         color: $text;
         letter-spacing: 1px;
@@ -135,6 +145,22 @@ h2 {
     height: auto;
     margin: 0 auto;
     max-width: 100%;
+}
+
+.btn-download {
+    border: 2px solid $text;
+    color: $text;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: all .4s ease;
+
+    &:hover, &:active {
+        color: $background-main;
+        background-color: $text;
+        border: 2px solid $text;
+    }
 }
 
 
@@ -221,7 +247,10 @@ h2 {
     }
 
     /* Main Content */
-
+    .main-content > h2 {
+        left: 0;
+        right: 0;
+    }
 }
 
 @media (max-width: 420px) {

@@ -38,7 +38,7 @@ h2 {
   background: #694ca4;
   grid-area: me;
   height: 100vh;
-  padding: 0 100px 0 60px; }
+  padding: 0 60px; }
 
 .about-me {
   -webkit-box-align: start;
@@ -164,6 +164,12 @@ h2 {
           justify-content: center; }
   .portfolio.bege {
     background-color: #ebd4c2; }
+  .portfolio h2 {
+    font-size: 2rem;
+    margin: 10px 0px; }
+  .portfolio h3 {
+    font: 1.2rem 'Roboto Mono';
+    margin: 0px 0px 30px; }
   .portfolio h2, .portfolio h3 {
     color: #694ca4;
     letter-spacing: 1px; }
@@ -176,6 +182,21 @@ h2 {
   height: auto;
   margin: 0 auto;
   max-width: 100%; }
+
+.btn-download {
+  border: 2px solid #694ca4;
+  color: #694ca4;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  padding: 10px 25px;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease; }
+  .btn-download:hover, .btn-download:active {
+    color: #1b1b1b;
+    background-color: #694ca4;
+    border: 2px solid #694ca4; }
 
 /* MQ - ESPECIAIS */
 /* MQ - Tablet */
@@ -236,7 +257,10 @@ h2 {
             align-self: center; }
   .social-media > a > img {
     max-width: 40px; }
-  /* Main Content */ }
+  /* Main Content */
+  .main-content > h2 {
+    left: 0;
+    right: 0; } }
 
 @media (max-width: 420px) {
   .social-media {
