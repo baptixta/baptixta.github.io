@@ -94,6 +94,8 @@ h2 {
   font-family: 'Roboto Mono', sans-serif;
   margin-top: 30px;
   max-width: 310px; }
+  .me > div > p a {
+    color: #222222; }
 
 .social-media {
   align-self: flex-start;
@@ -198,7 +200,6 @@ h2 {
     background-color: #694ca4;
     border: 2px solid #694ca4; }
 
-/* MQ - ESPECIAIS */
 /* MQ - Tablet */
 @media screen and (max-width: 768px) {
   .main {
@@ -260,8 +261,15 @@ h2 {
   /* Main Content */
   .main-content > h2 {
     left: 0;
-    right: 0; } }
+    right: 0; }
+  .portfolio > h3 {
+    font-size: 1rem; } }
 
+/* MQ - ESPECIAIS */
 @media (max-width: 420px) {
   .social-media {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media (max-width: 340px) {
+  .portfolio > h3 {
+    font-size: .75rem; } }

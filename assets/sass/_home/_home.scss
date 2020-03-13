@@ -58,6 +58,10 @@ h2 {
     font-family: 'Roboto Mono', sans-serif;
     margin-top: 30px;
     max-width: 310px;
+
+    a {
+        color: $background-side;
+    }
 }
 
 .social-media {
@@ -164,9 +168,6 @@ h2 {
 }
 
 
-/* MQ - ESPECIAIS */
-
-
 
 /* MQ - Tablet */
 
@@ -251,10 +252,25 @@ h2 {
         left: 0;
         right: 0;
     }
+
+    .portfolio > h3 {
+        font-size: 1rem;
+    }
 }
+
+
+/* MQ - ESPECIAIS */
+
+
 
 @media (max-width: 420px) {
     .social-media {
         grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 340px) {
+    .portfolio > h3 {
+        font-size: .75rem;
     }
 }
