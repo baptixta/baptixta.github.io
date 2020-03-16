@@ -200,6 +200,45 @@ h2 {
     background-color: #694ca4;
     border: 2px solid #694ca4; }
 
+/* MQ - Altura */
+@media screen and (max-height: 768px) {
+  .main {
+    grid-template-areas: "me" "content"; }
+  h2 {
+    font-size: 2rem; }
+  /* Side Content */
+  .side-content {
+    border-right: none;
+    height: auto;
+    padding: 0; }
+  .about-me {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 50px 0 0 45px; }
+  .me {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .social-media {
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px -12px; }
+  .social-media > a > img {
+    max-width: 45px; }
+  /* Main Content */
+  .main-content {
+    height: 100%; }
+  .main-content > h2 {
+    position: absolute; }
+  .wrapper {
+    width: 85%; } }
+
 /* MQ - Tablet */
 @media screen and (max-width: 768px) {
   .main {
@@ -263,7 +302,9 @@ h2 {
     left: 0;
     right: 0; }
   .portfolio > h3 {
-    font-size: 1rem; } }
+    font-size: 1rem;
+    max-width: 330px;
+    text-align: center; } }
 
 /* MQ - ESPECIAIS */
 @media (max-width: 420px) {
