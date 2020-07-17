@@ -97,6 +97,9 @@ h2 {
     height: 100vh;
     overflow-y: scroll;
     position: relative;
+    scroll-snap-align: center;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .main-content > h2 {
@@ -119,6 +122,9 @@ h2 {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    scroll-snap-align: center;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
 
     &.bege {
         background-color: $bege;
@@ -209,6 +215,7 @@ h2 {
 
     .main-content {
         height: 100%;
+        overflow-y: auto;
     }
 
     .main-content > h2 {
