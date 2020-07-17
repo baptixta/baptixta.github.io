@@ -215,7 +215,7 @@ h2 {
 
     .main-content {
         height: 100%;
-        overflow-y: auto;
+        overflow-y: auto;        
     }
 
     .main-content > h2 {
@@ -269,6 +269,10 @@ h2 {
 
     .main-content {
         height: 100%;
+        overflow-y: auto;
+        scroll-snap-align: center;
+        scroll-snap-type: y mandatory;
+        -webkit-overflow-scrolling: touch;
     }
 
     .main-content > h2 {
@@ -277,6 +281,12 @@ h2 {
 
     .wrapper {
         width: 85%;
+    }
+
+    .portfolio {
+        scroll-snap-align: center;
+        scroll-snap-type: y mandatory;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
